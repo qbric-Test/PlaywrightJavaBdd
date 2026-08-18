@@ -1,0 +1,27 @@
+# Maven
+target/
+pom.xml.versionsBackup
+
+# Test output: keep the directories, ignore everything generated inside them
+reports/*
+!reports/.gitkeep
+test-results/*
+!test-results/.gitkeep
+
+# Playwright
+.playwright/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
